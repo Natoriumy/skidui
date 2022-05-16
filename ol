@@ -1,3 +1,4 @@
+while wait() do
 local Library = {}
 
 local TS = game:GetService("TweenService")
@@ -439,3 +440,5 @@ function Library:Create(hubname, gamename, presetColor)
 end
 
 return Library
+
+end
